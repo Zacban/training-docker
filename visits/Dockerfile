@@ -1,8 +1,8 @@
 # Specify a base image
-FROM node:14-alpine
+FROM node:alpine
 
 # Change the working directory
-WORKDIR /usr/app
+WORKDIR '/app'
 
 # Install some dependencies
 COPY ./package.json ./
